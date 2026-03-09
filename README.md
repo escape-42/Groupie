@@ -1,5 +1,8 @@
 # Groupie
 
+<img width="448" height="549" alt="image" src="https://github.com/user-attachments/assets/ee635fdd-18ba-4407-a603-4cb4fa6b5a1c" />
+
+
 > A lightweight browser extension for grouping tabs and switching between them instantly.
 
 Think of it as a window manager for your browser — organize tabs into named groups, then jump between them with a single click. No clutter, no lost context.
