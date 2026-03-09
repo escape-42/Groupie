@@ -2,7 +2,7 @@
 
 const STORE = 'groupie_v1';
 const PALETTE = ['#ef4444','#f97316','#eab308','#22c55e','#14b8a6','#3b82f6','#8b5cf6','#ec4899'];
-const SUPPORT_URL = 'https://your-support-link-here.com';
+const SUPPORT_URL = 'https://lorelabyrinth.entropicsystems.net/dogecoffee';
 
 let state = { groups: [] };
 let selectedColor = PALETTE[5];
