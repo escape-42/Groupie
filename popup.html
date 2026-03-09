@@ -1,0 +1,38 @@
+<!-- popup.html | Groupie | Main popup shell for the Groupie tab group manager extension. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Groupie</title>
+  <link rel="stylesheet" href="popup_a3f7k9.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <span class="logo">Group<em>ie</em></span>
+      <div class="header-right">
+        <button id="btn-add-tab">+ Add Tab</button>
+        <div id="add-menu" class="hidden"></div>
+      </div>
+    </header>
+
+    <div id="groups"></div>
+
+    <div id="new-group-panel" class="hidden">
+      <input id="new-name" type="text" placeholder="Group name..." maxlength="40" autocomplete="off">
+      <div id="palette"></div>
+      <button id="btn-create">Create Group</button>
+    </div>
+
+    <footer>
+      <button id="btn-new-group">+ New Group</button>
+    </footer>
+
+    <div id="support-bar">
+      <button id="btn-support">♥ Support this project</button>
+    </div>
+  </div>
+  <script src="popup_a3f7k9.js"></script>
+</body>
+</html>

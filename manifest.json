@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Groupie",
+  "version": "1.0.0",
+  "description": "Group tabs together and switch between them instantly.",
+  "permissions": ["tabs", "storage", "activeTab", "windows"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Groupie"
+  }
+}
