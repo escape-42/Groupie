@@ -47,19 +47,11 @@ async function jumpToTab(url) {
   window.close();
 }
 
-function faviconUrl(url) {
-  try {
-    const origin = new URL(url).origin;
-    return `https://www.google.com/s2/favicons?domain=${origin}&sz=16`;
-  } catch {
-    return '';
-  }
-}
 
 function tabHTML(t, gid) {
   return `
     <div class="tab-row" data-url="${esc(t.url)}" title="${esc(t.url)}">
-      <img class="favicon" src="${faviconUrl(t.url)}">
+      <span class="favicon-placeholder">🔗</span>
       <span class="tab-title">${esc(t.title || t.url)}</span>
       <button class="btn-del-tab icon-btn" data-gid="${gid}" data-tid="${t.id}" title="Remove">✕</button>
     </div>`;
